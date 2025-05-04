@@ -20,15 +20,14 @@ Boyut: 1.74 MB
 Kaggle veri seti linki:
 https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life
 
-```
 
----
+
+
 
 ## Proje Yapısı ve Dosyaların İçeriği
 
 Proje dosyaları ve klasörleri aşağıdaki gibi organize edilmiştir:
 
-```
 Gastronomi_Tarif_Onerme/
 ├── hafta_1/
 │   ├── .idea/                 # IDE yapılandırma dosyaları
@@ -51,17 +50,15 @@ Gastronomi_Tarif_Onerme/
 └── README.md                  # Proje açıklama dosyası
 ```
 
-## Kurulum
 
    ```
-
+## Kurulum
 1. **NLTK modüllerini indirin**:
-   ```python
+   python
    import nltk
    nltk.download('punkt')
    nltk.download('stopwords')
    nltk.download('wordnet')
-   ```
 
 2. **Veri setlerini yerleştirin**:
    Ham veri setlerini `data/veriseti/` klasörüne yerleştirin.
@@ -175,8 +172,11 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 ## Örnek Çıktılar
 
 ### TF-IDF En Yüksek 10 Kelime
-![TF-IDF Görselleştirme](gorsel/tf-ıdf/top_10_tfidf.png)
+![TF-IDF Görselleştirme](gorsel/tf-ıdf/top_10_tfidf_lemmatized.png)
+![TF-IDF Görselleştirme](gorsel/tf-ıdf/top_10_tfidf_stemmed.png)
 
 ### Word2Vec PCA Görselleştirme
-![Word2Vec Görselleştirme](gorsel/word2vec/pca_visualization.png)
+![Word2Vec Görselleştirme](gorsel/word2vec/lemma_cbow_w2_d100_pca_comparison.png)
+![Word2Vec Görselleştirme](gorsel/word2vec/lemma_skipgram_w2_d100_pca_comparison.png)
+![Word2Vec Görselleştirme](gorsel/word2vec/stem_skipgram_w4_d300_pca_comparison.png)
 
