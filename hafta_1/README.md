@@ -20,34 +20,30 @@ Boyut: 1.74 MB
 Kaggle veri seti linki:
 https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life
 
-
-
-
-
 ## Proje Yapısı ve Dosyaların İçeriği
 
 Proje dosyaları ve klasörleri aşağıdaki gibi organize edilmiştir:
 
 Gastronomi_Tarif_Onerme/
-├── hafta_1/
-│   ├── .idea/                 # IDE yapılandırma dosyaları
-│   ├── data/                  # Veri setleri ve işlenmiş veriler
-│   │   ├── recipes_cleaned.csv
-│   │   ├── tfidf_lemmatized_results.csv
-│   │   ├── tfidf_stemmed_results.csv
-│   │   └── veriseti/          # Ham veri setleri
-│   │       └── recipes.csv
-│   ├── gorsel/                # Görselleştirme sonuçları
-│   │   ├── tf-ıdf/            # TF-IDF görselleştirme sonuçları
-│   │   └── word2vec/          # Word2Vec görselleştirme sonuçları
-│   ├── model/                 # Eğitimli modeller
-│   ├── src/                   # Kaynak kodlar
-│   │   ├── gastronomi_preprocessing.py  # Veri ön işleme kodları
-│   │   ├── tf-ıdf.py                   # TF-IDF hesaplama kodları
-│   │   ├── word2vec.py                 # Word2Vec model eğitimi
-│   │   └── zipf_graph.py               # Zipf Yasası analizi
-│   └── Zipf Yasası/           # Zipf Yasası ile ilgili çalışmalar
-└── README.md                  # Proje açıklama dosyası
+   ├── hafta_1/
+   │   ├── .idea/                 # IDE yapılandırma dosyaları
+   │   ├── data/                  # Veri setleri ve işlenmiş veriler
+   │   │   ├── recipes_cleaned.csv
+   │   │   ├── tfidf_lemmatized_results.csv
+   │   │   ├── tfidf_stemmed_results.csv
+   │   │   └── veriseti/          # Ham veri setleri
+   │   │       └── recipes.csv
+   │   ├── gorsel/                # Görselleştirme sonuçları
+   │   │   ├── tf-ıdf/            # TF-IDF görselleştirme sonuçları
+   │   │   └── word2vec/          # Word2Vec görselleştirme sonuçları
+   │   ├── model/                 # Eğitimli modeller
+   │   ├── src/                   # Kaynak kodlar
+   │   │   ├── gastronomi_preprocessing.py  # Veri ön işleme kodları
+   │   │   ├── tf-ıdf.py                   # TF-IDF hesaplama kodları
+   │   │   ├── word2vec.py                 # Word2Vec model eğitimi
+   │   │   └── zipf_graph.py               # Zipf Yasası analizi
+   │   └── Zipf Yasası/           # Zipf Yasası ile ilgili çalışmalar
+   └── README.md                  # Proje açıklama dosyası
 ```
 
 
