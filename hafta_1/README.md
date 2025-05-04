@@ -175,8 +175,8 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 ## Örnek Çıktılar
 
 ### TF-IDF En Yüksek 10 Kelime
-![TF-IDF Görselleştirme](hafta_1/gorsel/tf-ıdf/top_10_tfidf.png)
+![TF-IDF Görselleştirme](gorsel/tf-ıdf/top_10_tfidf.png)
 
 ### Word2Vec PCA Görselleştirme
-![Word2Vec Görselleştirme](hafta_1/gorsel/word2vec/pca_visualization.png)
+![Word2Vec Görselleştirme](gorsel/word2vec/pca_visualization.png)
 
