@@ -180,5 +180,3 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 ### Word2Vec PCA Görselleştirme
 ![Word2Vec Görselleştirme](hafta_1/gorsel/word2vec/pca_visualization.png)
 
-### Zipf Grafiği
-![Zipf Grafiği](hafta_1/Zipf Yasası/zipf_raw.png)
