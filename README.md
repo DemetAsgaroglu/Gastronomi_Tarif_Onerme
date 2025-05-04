@@ -19,5 +19,3 @@ Boyut: 1.74 MB
 İçinde iki .csv dosyası vardır.  “ recipes.csv ” ve “ test_recipes.csv ” olmak üzere iki dosyadır. Biz  “ recipes.csv ” kullandık. 
 Kaggle veri seti linki:
 https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life
-
-```
