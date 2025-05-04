@@ -1,6 +1,6 @@
 # Gastronomi Tarif Önerme Projesi
 Elinizdeki proje, gastronomi tariflerini analiz etmek, işlemek ve önerilerde bulunmak için geliştirilmiş bir Python projesidir. Proje, metin işleme, TF-IDF hesaplama, Word2Vec model eğitimi ve Zipf yasası gibi çeşitli doğal dil işleme (NLP) tekniklerini içermektedir.
----
+
 
 ## Projenin Amacı
 
@@ -10,7 +10,7 @@ Bu projenin temel amacı, yemek tariflerini daha anlaşılır ve işlenebilir bi
 2. **Metin Analizi**: Tariflerin metin tabanlı analizinin yapılması (örneğin, TF-IDF ve Word2Vec yöntemleriyle).
 4. **Görselleştirme**: Tariflerdeki verilerin görselleştirilmesi ve analiz sonuçlarının sunulması.
 
----
+
 
 ## KULLANILAN VERİ SETİNİN TANITIMI
 
@@ -24,30 +24,8 @@ https://www.kaggle.com/datasets/thedevastator/better-recipes-for-a-better-life
 
 Proje dosyaları ve klasörleri aşağıdaki gibi organize edilmiştir:
 
-Gastronomi_Tarif_Onerme/
-   ├── hafta_1/
-   │   ├── .idea/                 # IDE yapılandırma dosyaları
-   │   ├── data/                  # Veri setleri ve işlenmiş veriler
-   │   │   ├── recipes_cleaned.csv
-   │   │   ├── tfidf_lemmatized_results.csv
-   │   │   ├── tfidf_stemmed_results.csv
-   │   │   └── veriseti/          # Ham veri setleri
-   │   │       └── recipes.csv
-   │   ├── gorsel/                # Görselleştirme sonuçları
-   │   │   ├── tf-ıdf/            # TF-IDF görselleştirme sonuçları
-   │   │   └── word2vec/          # Word2Vec görselleştirme sonuçları
-   │   ├── model/                 # Eğitimli modeller
-   │   ├── src/                   # Kaynak kodlar
-   │   │   ├── gastronomi_preprocessing.py  # Veri ön işleme kodları
-   │   │   ├── tf-ıdf.py                   # TF-IDF hesaplama kodları
-   │   │   ├── word2vec.py                 # Word2Vec model eğitimi
-   │   │   └── zipf_graph.py               # Zipf Yasası analizi
-   │   └── Zipf Yasası/           # Zipf Yasası ile ilgili çalışmalar
-   └── README.md                  # Proje açıklama dosyası
-```
+Gastronomi_Tarif_Onerme/<br>   ├── hafta_1/<br>   │   ├── .idea/                 # IDE yapılandırma dosyaları<br>   │   ├── data/                  # Veri setleri ve işlenmiş veriler<br>   │   │   ├── recipes_cleaned.csv<br>   │   │   ├── tfidf_lemmatized_results.csv<br>   │   │   ├── tfidf_stemmed_results.csv<br>   │   │   └── veriseti/          # Ham veri setleri<br>   │   │       └── recipes.csv<br>   │   ├── gorsel/                # Görselleştirme sonuçları<br>   │   │   ├── tf-ıdf/            # TF-IDF görselleştirme sonuçları<br>   │   │   └── word2vec/          # Word2Vec görselleştirme sonuçları<br>   │   ├── model/                 # Eğitimli modeller<br>   │   ├── src/                   # Kaynak kodlar<br>   │   │   ├── gastronomi_preprocessing.py  # Veri ön işleme kodları<br>   │   │   ├── tf-ıdf.py                   # TF-IDF hesaplama kodları<br>   │   │   ├── word2vec.py                 # Word2Vec model eğitimi<br>   │   │   └── zipf_graph.py               # Zipf Yasası analizi<br>   │   └── Zipf Yasası/           # Zipf Yasası ile ilgili çalışmalar<br>   └── README.md                  # Proje açıklama dosyası
 
-
-   ```
 ## Kurulum
 1. **NLTK modüllerini indirin**:
    python
@@ -59,7 +37,7 @@ Gastronomi_Tarif_Onerme/
 2. **Veri setlerini yerleştirin**:
    Ham veri setlerini `data/veriseti/` klasörüne yerleştirin.
 
----
+
 
 
 ## Kullanılan Teknolojiler ve Kütüphaneler
@@ -95,7 +73,7 @@ Bu dosya, tariflerin metin işleme adımlarını gerçekleştiren fonksiyonları
 #### Çıktılar:
 - İşlenmiş tarifler `data/recipes_cleaned.csv` dosyasına kaydedilir.
 
----
+
 
 ### 2. `src/tf-ıdf.py`
 Bu dosya, tariflerin TF-IDF (Term Frequency-Inverse Document Frequency) değerlerini hesaplar ve görselleştirir.
@@ -112,7 +90,7 @@ Bu dosya, tariflerin TF-IDF (Term Frequency-Inverse Document Frequency) değerle
 - TF-IDF sonuçları `data/tfidf_lemmatized_results.csv` ve `data/tfidf_stemmed_results.csv` dosyalarına kaydedilir.
 - Görselleştirme sonuçları `gorsel/tf-ıdf/` klasörüne kaydedilir.
 
----
+
 
 ### 3. `src/word2vec.py`
 Bu dosya, Word2Vec modellerini eğitir ve tariflerin kelime vektörlerini analiz eder.
@@ -128,7 +106,7 @@ Bu dosya, Word2Vec modellerini eğitir ve tariflerin kelime vektörlerini analiz
 - Word2Vec modelleri `model/` klasörüne kaydedilir.
 - Görselleştirme sonuçları `gorsel/word2vec/` klasörüne kaydedilir.
 
----
+
 
 ### 4. `src/zipf_graph.py`
 Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
@@ -140,7 +118,7 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 #### Çıktılar:
 - Zipf grafikleri `Zipf Yasası/` klasörüne kaydedilir.
 
----
+
 
 ### 5. Veri Dosyaları (`data/`)
 - **`recipes_cleaned.csv`**:
@@ -150,13 +128,13 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 - **`recipes.csv`**:
   - Ham tarif verilerini içerir.
 
----
+
 
 ### 6. Model Dosyaları (`model/`)
 - **`lemmatized_model_cbow_window2_dim100.model`** gibi dosyalar:
   - Word2Vec modellerini içerir. Bu modeller, tariflerin lemmatize edilmiş veya stemlenmiş versiyonları üzerinde eğitilmiştir.
 
----
+
 
 ### 7. Görselleştirme Dosyaları (`gorsel/`)
 - **`tf-ıdf/`**:
@@ -164,7 +142,7 @@ Bu dosya, Zipf yasasını analiz etmek için grafikler oluşturur.
 - **`word2vec/`**:
   - Word2Vec görselleştirme sonuçlarını içerir.
 
----
+
 ## Örnek Çıktılar
 
 ### TF-IDF En Yüksek 10 Kelime
